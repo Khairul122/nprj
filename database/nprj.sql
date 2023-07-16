@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 16 Jul 2023 pada 11.44
+-- Waktu pembuatan: 16 Jul 2023 pada 12.49
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.1
 
@@ -187,7 +187,8 @@ CREATE TABLE `tblusers` (
 --
 
 INSERT INTO `tblusers` (`id`, `nim`, `password`, `type`, `Is_Active`, `CreationDate`, `UpdationDate`, `nama`, `alamat`, `hp`, `email`, `jenis_kelamin`, `image`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 1, '2018-05-27 17:51:00', '2023-07-16 09:22:54', 'admin', '', '', '', '', '');
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 1, '2018-05-27 17:51:00', '2023-07-16 09:22:54', 'admin', '', '', '', '', ''),
+(6, '210180079', '', 'anggota', 1, '2023-07-16 10:47:15', '2023-07-16 10:48:46', 'Nabila Rahmadanisa', '', '', '', 'Wanita', '');
 
 --
 -- Indexes for dumped tables
@@ -316,7 +317,7 @@ ALTER TABLE `tblsubcategory`
 -- AUTO_INCREMENT untuk tabel `tblusers`
 --
 ALTER TABLE `tblusers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

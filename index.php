@@ -20,9 +20,9 @@ include 'inc/header.php';
         <!-- Single Slide -->
         <div class="single-hero-slide bg-img background-overlay" style="background-image: url(img/blog-img/gambar1.jpg);"></div>
         <!-- Single Slide -->
-        <div class="single-hero-slide bg-img background-overlay" style="background-image: url(img/blog-img/gambar1.jpg);"></div>
+        <div class="single-hero-slide bg-img background-overlay" style="background-image: url(img/blog-img/DSC_1092-1.jpg);"></div>
         <!-- Single Slide -->
-        <div class="single-hero-slide bg-img background-overlay" style="background-image: url(img/blog-img/gambar1.jpg);"></div>
+        <div class="single-hero-slide bg-img background-overlay" style="background-image: url(img/blog-img/DSC_1082.jpg);"></div>
     </div>
 
     <!-- Hero Post Slide -->
